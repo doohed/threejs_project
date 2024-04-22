@@ -20,6 +20,9 @@ scroll-snap-align: center;
 width: 1400px;
 display: flex;
 justify-content: space-between;
+@media (max-width: 1400px) {
+    width: 90vw;
+  }
 `;
 
 const Left = styled.div`

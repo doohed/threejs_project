@@ -9,6 +9,7 @@ justify-content: center;
 z-index: 2;
 left: 50%;
 transform: translate(-50%, 0%); 
+
 `;
 
 const Container = styled.div`
@@ -17,6 +18,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 10px 0px;
+@media (max-width: 1400px) {
+    width: 90vw;
+  }
 `;
 
 const Links = styled.div`
